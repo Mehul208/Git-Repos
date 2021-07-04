@@ -4,7 +4,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Firefox()
-driver.get("https://meet.google.com/")
+driver.get("https://apps.google.com/intl/en/meet/")
 driver.implicitly_wait(4)
 meet_code = "gwh-yaxb-nka"
 
